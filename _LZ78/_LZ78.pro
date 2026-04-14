@@ -7,4 +7,5 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    comprimir.h
+    comprimir.h \
+    descomprimir.h
