@@ -21,21 +21,21 @@ void descomprimirLZ78(const char* entrada)
 
         in.get(c);
 
-        int tamBase = 0;
+        int tambase = 0;
 
         if (indice != 0)
         {
-            while (dic[indice - 1][tamBase] != '\0')
-                tamBase++;
+            while (dic[indice - 1][tambase] != '\0')
+                tambase++;
         }
 
-        char* nueva = new char[tamBase + 2];
+        char* nueva = new char[tambase + 2];
 
-        for (int i = 0; i < tamBase; i++){
+        for (int i = 0; i < tambase; i++){
             nueva[i] = dic[indice - 1][i];}
 
-        nueva[tamBase] = c;
-        nueva[tamBase + 1] = '\0';
+        nueva[tambase] = c;
+        nueva[tambase + 1] = '\0';
 
 
         dic[dicSize] = nueva;
