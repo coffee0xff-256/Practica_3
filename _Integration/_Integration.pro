@@ -7,4 +7,5 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    LZ78.h \
     encriptationLZ78.h
