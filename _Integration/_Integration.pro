@@ -8,4 +8,5 @@ SOURCES += \
 
 HEADERS += \
     LZ78.h \
+    RLE.h \
     encriptationLZ78.h
